@@ -29,9 +29,7 @@ const Input = React.forwardRef((props, ref) => {
           ref={inputRef}
           type={props.type || "text"}
           value={props.value}
-      >
-        {console.log(props.children)}
-      </input>
+      />
     </div>
   );
   
